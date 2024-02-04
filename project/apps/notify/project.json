@@ -16,7 +16,8 @@
         "tsConfig": "apps/notify/tsconfig.app.json",
         "assets": ["apps/notify/src/assets"],
         "isolatedConfig": true,
-        "webpackConfig": "apps/notify/webpack.config.js"
+        "webpackConfig": "apps/notify/webpack.config.js",
+        "generatePackageJson": true
       },
       "configurations": {
         "development": {},

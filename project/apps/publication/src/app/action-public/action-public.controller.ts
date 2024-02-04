@@ -1,4 +1,3 @@
-import { RepostPublicDto } from './../../../../bff/src/app/dto/repost-public.dto';
 import {
   Body,
   Controller,
@@ -21,6 +20,7 @@ import { UpdatePublicDto } from './dto/update-dto/update-public.dto';
 import { ApiBadRequestResponse, ApiResponse, ApiTags } from '@nestjs/swagger';
 import { SearchQuery } from '../repo-public/query/search.query';
 import { NotifyService } from '../notify/notify.service';
+import { RepostPublicDto } from './dto/repost-dto/repost-public.dto';
 
 @ApiTags('Publication')
 @Controller('publics')

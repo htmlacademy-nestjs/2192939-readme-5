@@ -1,6 +1,3 @@
-import { SearchQuery } from './../../../publication/src/app/repo-public/query/search.query';
-import { PublicQuery } from './../../../publication/src/app/repo-public/query/public.query';
-import { UpdatePublicDto } from './../../../publication/src/app/action-public/dto/update-dto/update-public.dto';
 import {
   Body,
   Controller,
@@ -28,6 +25,9 @@ import { FileInterceptor } from '@nestjs/platform-express';
 import { RepostPublicDto } from './dto/repost-public.dto';
 import { CreateCommentDto } from 'apps/publication/src/app/comment/dto/create-comment.dto';
 import { LikeDto } from 'apps/publication/src/app/like/dto/like.dto';
+import { UpdatePublicDto } from './dto/update-public.dto';
+import { PublicQuery } from './query/public.query';
+import { SearchQuery } from './query/search.query';
 
 @ApiTags('Publics')
 @ApiExtraModels(CreatePublicDto, UpdatePublicDto)

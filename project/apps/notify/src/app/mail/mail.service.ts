@@ -33,7 +33,7 @@ export class MailService {
       subject: EmailSubject.Newsletter,
       template: './newsletter',
       context: {
-        publics: '',
+        publics: publicsInfo,
       },
     });
   }
